@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textSize="18dp" android:text="Add Category"  android:layout_span="3"
+        android:padding="18dip" android:background="#000000" android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/editTextCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextDishname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Dishname" />
+
+    <EditText
+        android:id="@+id/editTextDishPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="DishPrice" />
+
+    <Button
+        android:id="@+id/buttonSubmitCategory"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+    <EditText
+        android:id="@+id/editTextCategoryOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+</LinearLayout>

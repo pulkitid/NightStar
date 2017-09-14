@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textSize="28dp" android:text="Menu"  android:gravity="center"
+        android:padding="18dip" android:background="#000000" android:textStyle="bold" android:layout_margin="10dp"
+        android:textColor="#ffffff"/>
+
+
+<Button
+    android:id="@+id/buttonRolls"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:background="#000000"
+    android:text="Rolls"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:textColor="#ffffff"
+    android:onClick="sendMessage"
+    />
+
+<Button
+    android:id="@+id/buttonChinese"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:background="#000000"
+    android:text="Chinese"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:textColor="#ffffff"
+    />
+
+    <Button
+        android:id="@+id/buttonPasta"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Pasta" />
+
+    <Button
+        android:id="@+id/buttonBurgerSandwich"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Burger / Sandwich" />
+
+    <Button
+        android:id="@+id/buttonRiceNoddles"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Rice \ Noddles" />
+
+    <Button
+        android:id="@+id/buttonChoupaatti"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Choupaatti" />
+
+    <Button
+        android:id="@+id/buttonHandiNonVeg"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Handi se (Non Veg)" />
+    <Button
+        android:id="@+id/buttonIndianStarters"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Indian Starters" />
+    <Button
+        android:id="@+id/buttonCombo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Combo \ Hot Deals" />
+    <Button
+        android:id="@+id/buttonHandiVeg"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Handi se (Veg)" />
+    <Button
+        android:id="@+id/buttonRiceBiryani"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Rice \ Biryani" />
+    <Button
+        android:id="@+id/buttonBread"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Bread" />
+    <Button
+        android:id="@+id/buttonAccompaniments"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Accompaniments" />
+    <Button
+        android:id="@+id/buttonDesserts"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Desserts" />
+    <Button
+        android:id="@+id/buttonAddress"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#b0b0b0"
+        android:text="AddAddress" />
+
+</LinearLayout>
+    </ScrollView>
